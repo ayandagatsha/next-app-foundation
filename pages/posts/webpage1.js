@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useState } from 'react';
 
-import Image from 'next/image'
+
 
 
 export default function FirstPost() {
@@ -11,7 +11,7 @@ export default function FirstPost() {
 
   const styles = {
     style: "App-red", style2: "App-after-click", text: "hello world, I'm Ayanda",
-    face:"",talking:"/images/me.gif"
+   
     
 };
 
@@ -35,13 +35,7 @@ setStyle("App-after-click");
         <title>Ayandas Mind</title>
       </Head>
 
-<Image
-src="/images/me.gif"
-height={100}
-                  width={100}
-                 
-                 
-/>
+
 
 
       <h1 id="heading" onClick={clickHandler} className={style}>{styles.text}</h1>
